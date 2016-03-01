@@ -3,6 +3,8 @@
 2. 关联到的图片放在目录images下，用相对路径引用
 3. 不依赖任何额外的style，所有用到的style全部写在content.html同一个&lt;style&gt;中，&lt;style&gt;后紧跟正文html
 
+![hint](readme/hint.png)
+
 # 可参考链接
 1. [http://www.paulund.co.uk/html-email-boilerplate](http://www.paulund.co.uk/html-email-boilerplate)
 2. [http://www.jb51.net/web/355537.html](http://www.jb51.net/web/355537.html)
