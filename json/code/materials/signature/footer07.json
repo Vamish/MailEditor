@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "signature",
+    "code": "<table class=\"widget widget-footer\"><tr><td><div class=\"widget-container\"><div class=\"widget-footer07-bar\"><p style=\"margin: 30px 0;\">自定义编辑</p></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>颜色拾取器 | MailPanda</title>
+    <link href="style/reset.css" type="text/css" rel="stylesheet" media="all">
+    <link href="style/base.css" type="text/css" rel="stylesheet" media="all">
+    <link href="style/widget.css" type="text/css" rel="stylesheet" media="all">
+
+    <link href="style/spectrum.css" type="text/css" rel="stylesheet" media="all">
+    <script src="js/lib/jquery.js"></script>
+    <script type="text/javascript" src="js/lib/spectrum/spectrum.js"></script>
+</head>
+<style>
+    .body{
+        width: 960px;
+        margin: 30px auto;
+    }
+</style>
+<body>
+<div class="body">
+    <input id="full">
+</div>
+<script type="text/javascript">
+    $("#full").spectrum({
+        color: "#f9c502",
+        showInput: true,
+        containerClassName: "full-spectrum",
+        showInitial: true,
+        showPalette: true,
+        showButtons: false,
+        togglePaletteOnly: true,
+        showSelectionPalette: true,
+        showAlpha: true,
+        maxPaletteSize: 6,
+        maxSelectionSize: 6,
+        showPaletteOnly: true,
+        togglePaletteMoreText: "+",
+        togglePaletteLessText: "-",
+        preferredFormat: "hex",
+        localStorageKey: false,
+        palette: [
+            ["rgb(204, 0, 51)", "rgb(247, 148, 30)", "rgb(0, 102, 102)", "rgb(0, 0, 204)", "rgb(0, 159, 227)", "rgb(249, 197, 2)"]
+        ]
+    });
+</script>
+<style>
+    .sp-container {
+        background-color: #fff;
+        border: none;
+    }
+    .sp-palette-container {
+        float: none;
+        position: relative;
+        padding: 5px 10px;
+        padding-bottom: 0;
+        margin-bottom: 2px;
+        border-right: none;
+        background-color: #e8ebf1;
+    }
+    .sp-palette {
+        float: left;
+        margin-bottom: 5px;
+        max-width: 200px;
+    }
+    .sp-palette .sp-thumb-el {
+        width: 23px;
+        height: 23px;
+        margin: 10px 5px;
+        border-radius: 4px;
+        border: none;
+    }
+    .sp-palette .sp-thumb-el .sp-thumb-inner {
+        border-radius: 4px;
+    }
+    .sp-palette-button-container {
+        float: right;
+    }
+    .sp-palette-button-container button{
+        width: 23px;
+        height: 23px;
+        padding: 3px;
+        margin: 10px 5px;
+        font-size: 15px;
+        font-weight: 900;
+        color: #c8c8c8;
+        border-radius: 4px;
+        background-color: #fff;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+    }
+    .sp-container button:hover {
+        background-color: #fff;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+    }
+    .sp-picker-container {
+        float: right;
+        position: relative;
+        padding: 5px 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-left: none;
+        background-color: #e8ebf1;
+    }
+    .sp-input-container {
+        float: left;
+    }
+    .sp-input{
+        border: 1px solid #b0b0b1;
+        background-color: #fff;
+    }
+    .sp-initial {
+        float: right;
+        border: none;
+    }
+    .sp-initial span:first-child .sp-thumb-inner{
+        border-radius: 4px 0 0 4px;
+    }
+    .sp-initial span:last-child .sp-thumb-inner{
+        border-radius: 0 4px 4px 0;
+    }
+    .sp-thumb-el {
+        background-image: none;
+    }
+    .sp-color,
+    .sp-hue,
+    .sp-clear {
+        border: none;
+    }
+    .sp-alpha-inner {
+        border: none;
+    }
+</style>
+</body>
+</html>

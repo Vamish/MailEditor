@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "separator",
+    "code": "<table class=\"widget widget-divider\"><tr><td><div class=\"widget-container\"><div class=\"widget-divider04-bar\"><img src=\"widgets/widget-divider04.png\" alt=\"img\"></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

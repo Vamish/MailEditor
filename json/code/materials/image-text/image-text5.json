@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "image-text",
+    "code": "<table class=\"widget widget-phototext\"><tr><td><div class=\"widget-container\"><div class=\"widget-phototext05-bar\"><img src=\"widgets/widget-phototext05.jpg\" alt=\"img\"><div class=\"caption\"><p>输入您想要的文字</p></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

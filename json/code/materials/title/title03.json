@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "title",
+    "code": "<table class=\"widget widget-title\"><tr><td><div class=\"widget-container\"><div class=\"widget-title03-bar\"><div class=\"title\"><p><strong>句子迷 </strong></p><span class=\"triangle\"><i class=\"triangle-down\"  data-only-styles=\"border-top-color\"></i><i class=\"triangle-down\"  data-only-styles=\"border-top-color\"></i><i class=\"triangle-down\"  data-only-styles=\"border-top-color\"></i> </span></div><div class=\"text\"><i class=\"square\"></i><p>是谁来自山川湖海， 却囿于昼夜， 厨房与爱。 <br> 唯有美食与爱不可辜负。 孤独的人都要吃饱饭。 <br> 把美食与爱装进口袋。 每时每刻， 都有一道唤醒回忆的菜。 对美食与爱的一再坚持。 </p></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

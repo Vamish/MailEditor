@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "signature",
+    "code": "<table class=\"widget widget-footer\"><tr><td><div class=\"widget-container\"><div class=\"widget-footer06-bar clearfix\"><div class=\"leftbar\"><p><a class=\"footer06-text\" href=\"#\">点击订阅MailPanda</a></p></div><div class=\"rightbar\"><p>公司地址<br>公司电话<br>support@ mailpanda.com</p></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "signature",
+    "code": "<table class=\"widget widget-footer\"><tr><td><div class=\"widget-container\"><div class=\"widget-footer01-bar\"><p class=\"footer01-b\">www.mailpanda.com</p><p> support@ mailpanda.com </p><br><p> 2015.9.22 <br> Shanghai China </p></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "signature",
+    "code": "<table class=\"widget widget-footer\"><tr><td><div class=\"widget-container\"><div class=\"widget-footer05-bar clearfix\"><div class=\"leftbar\"><p class=\"footer05-text\">MailPanda<br>通过右边二维码关注我们</p></div><div class=\"rightbar\"><img src=\"widgets/widget-footer-qr.png\"></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

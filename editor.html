@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>邮件编辑 | MailPanda</title>
+    <link href="style/reset.css" type="text/css" rel="stylesheet" media="all">
+    <link href="style/base.css" type="text/css" rel="stylesheet" media="all">
+    <link href="style/common.css" type="text/css" rel="stylesheet" media="all">
+    <link href="style/widget.css" type="text/css" rel="stylesheet" media="all">
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/tab.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="header clearfix">
+                <div class="logo-bar left">
+                    <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="adjust-width clearfix">
+                    <nav class="top-nav left">
+                        <ul>
+                            <li><a href="#">工作台</a></li>
+                            <li class="active"><a href="#">邮件</a></li>
+                            <li><a href="#">收件人</a></li>
+                            <li><a href="#">报告</a></li>
+                            <li><a href="#">触发式营销</a></li>
+                            <li><a href="#">设置</a></li>
+                        </ul>
+                    </nav>
+                    <div class="top-user right">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">
+                                    <span class="member-initials" title="Yang yang">Y</span>
+                                    <span id="my-name">Yang yang</span>
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">注销</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">帮助</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="main">
+                    <div class="step-bar-wrap">
+                        <ol class="nav nav-justified step-bar-nav">
+                            <li>
+                                <a href="#">
+									邮件设置
+								</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+									邮件编辑
+								</a>
+                            </li>
+                            <li>
+                                <a href="#">
+									邮箱发送
+								</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="editor-wrap">
+                        <div class="editor-header">
+                            <span>模板编辑</span>
+                        </div>
+                        <div class="editor-container">
+                            <table width="100%">
+                                <tr>
+                                    <td class="table-left">
+                                        <div id="editor-lb" class="editor-left-bar">
+                                            <div class="design-sidebar">
+                                                <ul>
+                                                    <li class="material-library active"><a href="#material-lib-tab" data-toggle="tab">素材库</a></li>
+                                                    <li class="mail-library"><a href="#mail-lib-tab" data-toggle="tab">邮件库</a></li>
+                                                    <li class="photo-library"><a href="#photo-lib-tab" data-toggle="tab">图片库</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="design-content tab-content overflow-visible">
+                                                <div id="material-lib-tab" class="tab-pane active">
+                                                    <div class="tab-panel-heading">
+                                                        <ul class="list-item">
+                                                            <li class="active"><a href="#material-item1" data-toggle="tab">头部</a></li>
+                                                            <li><a href="#material-item2" data-toggle="tab">图文</a></li>
+                                                            <li><a href="#material-item3" data-toggle="tab">分隔</a></li>
+                                                            <li><a href="#material-item4" data-toggle="tab">标题</a></li>
+                                                            <li><a href="#material-item5" data-toggle="tab">按钮</a></li>
+                                                            <li><a href="#material-item6" data-toggle="tab">签名</a></li>
+                                                            <li><a href="#material-item7" data-toggle="tab">最近使用</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tab-panel-body tab-content overflow-visible">
+                                                        <div id="material-item1" class="tab-pane active">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-header01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="material-item2" class="tab-pane">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="material-item3" class="tab-pane">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-divider01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="material-item4" class="tab-pane">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-title01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="material-item5" class="tab-pane">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-button01.png"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="material-item6" class="tab-pane">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-signature01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="material-item7" class="tab-pane">
+                                                            <ul class="material-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/material-phototext01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="mail-lib-tab" class="tab-pane">
+                                                    <div class="tab-panel-heading">
+                                                        <ul class="list-item">
+                                                            <li class="active"><a href="#mail-item1" data-toggle="tab">节日</a></li>
+                                                            <li><a href="#mail-item2" data-toggle="tab">促销</a></li>
+                                                            <li><a href="#mail-item3" data-toggle="tab">月报</a></li>
+                                                            <li><a href="#mail-item4" data-toggle="tab">活动</a></li>
+                                                            <li><a href="#mail-item5" data-toggle="tab">通知</a></li>
+                                                            <li><a href="#mail-item6" data-toggle="tab">行业</a></li>
+                                                            <li><a href="#mail-item7" data-toggle="tab">最近使用</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tab-panel-body tab-content overflow-visible">
+                                                        <div id="mail-item1" class="tab-pane active">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/mail-template02.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/mail-template03.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/mail-template04.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/mail-template05.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src=""></span></a></li>
+                                                                <li><a href="#"><span><img src=""></span></a></li>
+                                                                <li><a href="#"><span><img src=""></span></a></li>
+                                                                <li><a href="#"><span><img src=""></span></a></li>
+                                                                <li><a href="#"><span><img src=""></span></a></li>
+                                                                <li><a href="#"><span><img src=""></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="mail-item2" class="tab-pane">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="mail-item3" class="tab-pane">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template02.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="mail-item4" class="tab-pane">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template03.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="mail-item5" class="tab-pane">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template04.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="mail-item6" class="tab-pane">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template05.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="mail-item7" class="tab-pane">
+                                                            <ul class="mail-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/mail-template01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="photo-lib-tab" class="tab-pane">
+                                                    <div class="tab-panel-heading">
+                                                        <ul class="list-item">
+                                                            <li class="active"><a href="#photo-item1" data-toggle="tab">系统推荐</a></li>
+                                                            <li><a href="#photo-item2" data-toggle="tab">社交媒体</a></li>
+                                                            <li><a href="#photo-item3" data-toggle="tab">我的上传</a></li>
+                                                            <li><a href="#photo-item4" data-toggle="tab">最近使用</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="tab-panel-body tab-content overflow-visible">
+                                                        <div id="photo-item1" class="tab-pane active">
+                                                            <ul class="photo-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/photo-recommended01.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/photo-recommended02.jpg"></span></a></li>
+                                                                <li><a href="#"><span><img src="images/photo-recommended03.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="photo-item2" class="tab-pane">
+                                                            <ul class="photo-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/photo-recommended01.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="photo-item3" class="tab-pane">
+                                                            <ul class="photo-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/photo-recommended02.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="photo-item4" class="tab-pane">
+                                                            <ul class="photo-item-list custom-scrollbar-tip1">
+                                                                <li><a href="#"><span><img src="images/photo-recommended03.jpg"></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="table-right">
+                                        <div class="editor-right-bar">
+                                            <div id="email-h" class="email-header clearfix">
+                                                <div class="email-info left">
+                                                    <table>
+                                                        <tr>
+                                                            <th>邮件标题：</th>
+                                                            <td><strong>欢迎使用MailPanda2.0</strong></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>发件人：</th>
+                                                            <td>MailPanda团队&lt;support@mailpanda.com&gt;</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>回复：</th>
+                                                            <td>timhon@mailpanda.com</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                                <div class="email-toolbar">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><img src="images/goback.png" alt="img">返回</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="images/save.png" alt="img">保存</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="images/preview.png" alt="img">预览</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><img src="images/sent.png" alt="img">发送</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="edit-tb">
+                                                <div id="edit-tb" class="edit-toolbar clearfix">
+                                                    <div class="u-tools-container">
+                                                        <div class="u-button-wrap">
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-bold" type="button" title="bold">bold</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-italic" type="button" title="italic">italic</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-underline" type="button" title="underline">underline</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-font" type="button" title="font">font</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-font-size" type="button" title="font-size">font-size</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-text-color" type="button" title="text-color">text-color</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-background-color" type="button" title="background-color">background-color</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-text-align" type="button" title="text-align">text-align</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-text-height" type="button" title="text-height">text-height</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-link" type="button" title="link">link</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-undo" type="button" title="undo">undo</button>
+                                                            </div>
+                                                            <div class="u-btn-grid">
+                                                                <button class="u-btn u-btnicon-redo" type="button" title="redo">redo</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="u-linkbtn-wrap">
+                                                            <div class="u-linkbtn-grid">
+                                                                <a href="#" class="u-linkbtn"><i class="u-linkbtn-icon"></i>收件人姓名</a>
+                                                            </div>
+                                                            <div class="u-linkbtn-grid">
+                                                                <a href="#" class="u-linkbtn"><i class="u-linkbtn-icon"></i>退订链接</a>
+                                                            </div>
+                                                            <div class="u-linkbtn-grid">
+                                                                <a href="#" class="u-linkbtn"><i class="u-linkbtn-icon"></i>网页版链接</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="edit-cw" class="edit-content-wrap">
+                                                    <div class="edit-content">
+                                                        <div class="edit-content-body">
+                                                            <table id="email-body" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                                <tr>
+                                                                    <td class="body-container">
+                                                                        <table cellpadding="0" cellspacing="0" id="email" align="center">
+                                                                            <tr>
+                                                                                <td id="email-main">
+                                                                                    <table class="widget widget-header">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <div class="widget-header03-bar">
+                                                                                                        <span class="header03-img"><img src="widgets/widget-header03-img.png" alt="img"></span>
+                                                                                                        <p class="header03-text">www.mailpanda.com</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <table class="widget widget-divider">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <div class="widget-divider02-bar">
+                                                                                                        <img src="widgets/widget-divider02.png" alt="img">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <table class="widget widget-title">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <div class="widget-title01-bar">
+                                                                                                        <p class="title01-s">如何让初创品牌生而不凡</p>
+                                                                                                        <span>———————————</span>
+                                                                                                        <p class="title01-b">如果说建造品牌
+                                                                                                            <br>就像修巴比伦塔</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <table class="widget widget-divider">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <div class="widget-divider02-bar">
+                                                                                                        <img src="widgets/widget-divider02.png" alt="img">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <table class="widget widget-phototext">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <div class="widget-phototext01-bar">
+                                                                                                        <img src="widgets/widget-phototext01.jpg" alt="img">
+                                                                                                        <div class="phototext01-caption">
+                                                                                                            <h2 class="caption-title">小标题</h2>
+                                                                                                            <p class="caption-content">您可以在这里输入您想要的文字</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <table class="widget widget-button">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <a href="#" class="widget-btn widget-btn2 widget-btn2-01"><span class="widget-btn-text">登陆网站</span></a>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <a href="#" class="widget-btn widget-btn2 widget-btn2-02"><span class="widget-btn-text">登陆网站</span></a>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <table class="widget widget-footer">
+                                                                                        <tr>
+                                                                                            <td>
+                                                                                                <div>
+                                                                                                    <div class="widget-footer03-bar">
+                                                                                                        <div class="textbar">
+                                                                                                            <p>通过这些平台关注我们
+                                                                                                                <p>
+                                                                                                        </div>
+                                                                                                        <div class="social-icon">
+                                                                                                            <a href="#"><img src="widgets/widget-footer03-qq.png"></a>
+                                                                                                        </div>
+                                                                                                        <div class="social-icon">
+                                                                                                            <a href="#"><img src="widgets/widget-footer03-weixin.png"></a>
+                                                                                                        </div>
+                                                                                                        <div class="social-icon">
+                                                                                                            <a href="#"><img src="widgets/widget-footer03-weibo.png"></a>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    window.onload = window.onresize = function() {
+        var leftCol = window.document.getElementById('editor-lb');
+        var hLeftCol = leftCol.offsetHeight;
+        document.getElementById("edit-cw").style.height = (hLeftCol - document.getElementById("email-h").offsetHeight - document.getElementById("edit-tb").offsetHeight) + "px";
+    }
+    </script>
+</body>
+
+</html>

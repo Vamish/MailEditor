@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "image-text",
+    "code": "<table class=\"widget widget-phototext\"><tr><td><div class=\"widget-container\"><div class=\"widget-phototext04-wrap\"><div class=\"widget-phototext04-bar clearfix\"><div class=\"rightbar\"><img src=\"widgets/widget-phototext04.jpg\"></div><div class=\"leftbar\"><span class=\"cate\">精品分享</span><div class=\"content\"><p><strong>您可以把想要输入的文字写在这里 </strong><br>测试测试测试测试测试测试测试测试 <br> 测试测试 <br> 测试测试测试测试测试测 </p></div></div></div></div></div></td></tr></table> "
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

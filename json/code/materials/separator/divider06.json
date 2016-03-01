@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "separator",
+    "code": "<table class=\"widget widget-divider\"><tr><td><div class=\"widget-container\"><div class=\"widget-divider06-bar\"><table width=\"100%\"><tr><td style=\"padding:0;\"><span class=\"divider06-hr\"></span></td><td width=\"10%\" style=\"padding:15px;\"><img class=\"divider06-img\" src=\"widgets/widget-divider06.png\" alt=\"img\"></td><td style=\"padding:0;\"><span class=\"divider06-hr\"></span></td></tr></table></div></div></td></tr></table > "
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

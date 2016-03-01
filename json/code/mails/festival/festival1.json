@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "html",
+    "code": "<table class=\"widget widget-header\"> <tbody> <tr> <td> <div class=\"widget-container\"> <div class=\"widget-header02-wrap\"> <div class=\"widget-header02-bar\"> <p>FOLLOW US AND BE THE FIRST TO KNOW ABOUT EVERYTHING MENUDIES</p> <ul class=\"social-icons noneditable\"  contenteditable=\"false\"> <li><a href=\"#\"><img src=\"widgets/widget-header02-qq.png\" alt=\"img\"></a></li> <li><a href=\"#\"><img src=\"widgets/widget-header02-weixin.png\" alt=\"img\"></a></li> <li><a href=\"#\"><img src=\"widgets/widget-header02-weibo.png\" alt=\"img\"></a></li> </ul> </div> </div> </div> </td> </tr> </tbody> </table> <table class=\"widget widget-header\"> <tbody> <tr> <td> <div class=\"widget-container\"> <div class=\"widget-header03-bar\"><span class=\"header03-img\"><img src=\"widgets/widget-header03-img.png\" alt=\"img\"></span> <p class=\"header03-text\">www.mailpanda.com</p> </div> </div> </td> </tr> </tbody> </table> <table class=\"widget widget-button\"> <tbody> <tr> <td> <div class=\"widget-container\"><a class=\"widget-btn widget-btn2 widget-btn2-01\" href=\"#\"><span class=\"widget-btn-text\">登陆网站</span></a></div> </td> <td> <div class=\"widget-container\"><a class=\"widget-btn widget-btn2 widget-btn2-02\" href=\"#\"><span class=\"widget-btn-text\">登陆网站</span></a></div> </td> </tr> </tbody> </table> <table class=\"widget widget-button\"> <tbody> <tr> <td> <div class=\"widget-container\"><a class=\"widget-btn widget-btn3 widget-btn3-02\" href=\"#\"><span class=\"widget-btn-text widget-btn3-text\">分类按钮</span></a></div> </td> <td> <div class=\"widget-container\"><a class=\"widget-btn widget-btn3 widget-btn3-01\" href=\"#\"><span class=\"widget-btn-text widget-btn3-text\">分类按钮</span></a></div> </td> </tr> </tbody> </table><table class=\"widget widget-button\"> <tbody> <tr> <td> <div class=\"widget-container\"><a class=\"widget-btn widget-btn5\" href=\"#\"><span class=\"widget-btn-text widget-btn5-text\">点击进入</span></a></div> </td> </tr> </tbody> </table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

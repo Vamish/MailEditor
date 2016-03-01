@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "button",
+    "code": "<table class=\"widget widget-button\"><tr><td><div class=\"widget-container\"><a href=\"#\" class=\"widget-btn widget-btn6 widget-btn6-01\"><p class=\"widget-btn-text widget-btn6-text\">信息较长的链接可以选</p></a></div></td><td><div class=\"widget-container\"><a href=\"#\" class=\"widget-btn widget-btn6 widget-btn6-02\"><p class=\"widget-btn-text widget-btn6-text\">普通版本</p></a></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

@@ -1,0 +1,24 @@
+<div class="<%=baseClass%> " style="padding:7px 5px; margin-left: -82px;">
+    <table>
+        <tbody>
+            <%for(var i = 0 ;i<colors.length;i++){%>
+                <tr>
+                    <%for(var j =0 ;j<colors[i].length;j++){%>
+                        <td class="email-colorpicker-cell" title="<%=colors[i][j]%>" unselectable="on" data-kb-attach-event="click:_onColorSelect">
+                            <div unselectable="on" style="width: 14px; height: 14px;margin: 3px;padding: 0;border: 1px solid #a6a6a6;background-color: <%=colors[i][j]%>;"></div>
+                        </td>
+                        <%}%>
+                </tr>
+                <%}%>
+                    <tr>
+                        <td class="email-colorpicker-cell" colspan="7">
+                            <div unselectable="on" style="color:#e7ebed;">
+                                <%=prefix%>
+                                    <input type="text" placeholder="自定义" data-kb-attach-point="_customInput" data-kb-attach-event="blur:_onCustomBlur">
+                            </div>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+    </ul>
+</div>

@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "image-text",
+    "code": "<table class=\"widget widget-phototext\"><tr><td><div class=\"widget-container\"><div class=\"widget-phototext08-bar clearfix\"><div class=\"grid\"><img src=\"widgets/widget-phototext08-01.jpg\" alt=\"img\"><a href=\"#\">1号</a></div><div class=\"grid\"><img src=\"widgets/widget-phototext08-02.jpg\" alt=\"img\"><a href=\"#\">2号</a></div><div class=\"grid\"><img src=\"widgets/widget-phototext08-03.jpg\" alt=\"img\"><a href=\"#\">3号</a></div><div class=\"grid\"><img src=\"widgets/widget-phototext08-04.jpg\" alt=\"img\"><a href=\"#\">4号</a></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "image-text",
+    "code": "<table class=\"widget widget-phototext\"><tr><td><div class=\"widget-container\"><div class=\"widget-phototext06-bar\"><img src=\"widgets/widget-phototext06.jpg\" alt=\"img\"><div class=\"content\"><h4>小标题</h4><p>可以把正文写在这里可以把正文写在这里可以把正文写在这里可以把正文写在这里可以把正文写在这里 <br> 可以把正文写在这里可以把正文写在这里 <br> 可以把正文写在这里可以把正文写在这里可以把正文写在这里可以把正文写在这里 <br> 可以把正文写在这里可以把正文写在这里可以把正文写在这里 可以把正文写在这里 可以把正文写在这 <br> 里可以把正文写在这里可以把正文写在这里可以把正文写在这里可以把正文写在这里可以把正文写在 <br> 这里可以把正文写在这里可以把正文写在这里可以把正文写在这里可以把正文写在这里 <br> 可以把正文写在这里这里可以把正文写在这里 这里可以把正文写在这里 </p></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "signature",
+    "code": "<table class=\"widget widget-footer\"><tr><td><div class=\"widget-container\"><div class=\"widget-footer02-bar\"><table width=\"100%\"><tr><td style=\"padding:0;\"><div class=\"left-bar clearfix\"><div class=\"infobar\"><dl><dt>地址:</dt><dd>上海市闸北区测试测试测测试测试测试测试</dd></dl></div><span class=\"footer02-img\"><img src=\"widgets/widget-footer02-map.png\"></span></div></td><td style=\"padding:0;\"><div class=\"right-bar clearfix\"><div class=\"infobar\"><dl><dt>电话:</dt><dd>65111111</dd><dt>邮箱:</dt><dd>support@ mailpanda.com </dd></dl></div><span class=\"footer02-img\"><img src=\"widgets/widget-footer02-phone.png\"></span></div></td></tr></table></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

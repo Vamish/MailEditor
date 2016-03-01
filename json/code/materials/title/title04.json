@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "title",
+    "code": "<table class=\"widget widget-title\"><tr><td><div class=\"widget-container\"><div class=\"widget-title04-bar clearfix\"><h3 class=\"title\">创建优秀欢迎邮件的5个方法</h3> <p>优秀的欢迎邮件是与客户或读者建立良好关系的重要的第一步。 那些最优秀的邮件活动总能够创造令人心跳的故事， 继而让读者迫切的想收听（ 这些故事）。 但并不是每一个邮件活动都能够让你的读者乖乖的坐在座位上读完你的邮件以及故事。 但这里有5个有效的方法教你如何创建优秀的欢迎邮件， 助你与读者破冰。 </p><h5 class=\"sub-title\">提供真正的价值</h5> <p> 再一次告诉新来的读者你的服务有多棒， 这当然是好的。 但是他们已经知道你的服务很棒了， 不然他们也不会订阅你的邮件， 也不会同意收到来自你的邮件以及更新。 所以， 更新你的内容吧。 向他们提供一些在网站上并不轻易看到的信息。 给他们一些建议， 能够让他们那些没有订阅你的邮件的朋友羡慕嫉妒恨的建议。 </p><a class=\"link\" href=\"#\">查看更多+</a></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

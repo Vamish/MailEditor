@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "title",
+    "code": "<table class=\"widget widget-title\"><tr><td><div class=\"widget-container\"><div class=\"widget-title05-bar clearfix\"><div class=\"img-bar\"><img src=\"widgets/widget-title05.png\"><div class=\"title\"><p><em>十种</em><small>必看的</small><br>经营订阅人列表<small> 坏习惯 </small></p></div></div><div class=\"text-bar\"><span class=\"info\"><p>作者：George Wei <br> 2014年6月13日发布</p></span><p>每个人， 包括我自己都十分清楚， 拥有一个高质量的订阅人列表对于产品而言有多么重要。 而经营订阅人列表更是一个漫长而艰辛的过程。 <br> 当某人订阅了你的邮件时， 他们给予了你宝贵的信任， 你的订阅人允许你出现在他们的私人空间中（ 收件箱）， 作为回报， 你也不能滥用你获得的新权利。 <br> 然而不止一次， 我看到人们将订约人给予的信任看成是理所当然的， 更有甚者， 还把他们当作傻瓜一般愚弄。 </p></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

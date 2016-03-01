@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "head",
+    "code": "<table class=\"widget widget-header\"><tr><td><div class=\"widget-container\"><div class=\"widget-header03-bar\"><span class=\"header03-img\"><img src=\"widgets/widget-header03-img.png\" alt=\"img\"></span><div><p class=\"header03-text\">www.mailpanda.com</p></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

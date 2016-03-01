@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "signature",
+    "code": "<table class=\"widget widget-footer\"><tr><td><div class=\"widget-container\"><div class=\"widget-footer04-bar\"><table width=\"100%\"><tr><td style=\"padding:0;\"><span class=\"footer04-hr\"></span></td><td width=\"10%\" style=\"padding:;\"><div class=\"footer04-img\"><img src=\"widgets/widget-footer-qr.png\"><p class=\"footer04-text\">扫描以上二维码关注我们</p></div></td><td style=\"padding:0;\"><span class=\"footer04-hr\"></span></td></tr></table></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

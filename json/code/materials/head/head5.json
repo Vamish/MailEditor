@@ -1,0 +1,14 @@
+{
+	"Success": true,
+	"Messages": [],
+	"Model": {
+		"type": "head",
+		"code": "<table class=\"widget widget-header\"><tr><td><div class=\"widget-container\"><div class=\"widget-header05-bar clearfix\"><div class=\"leftbar clearfix\"><div class=\"tipbar\"><p class=\"header05-tiptext\">每周精选</p><span class=\"tip-triangle header05-tip1\" data-color-listener=\"color\">&#9670;</span><span class=\"tip-triangle header05-tip2\">&#9670;</span></div><span class=\"header05-text\"><p class=\"header05-text-b\">9月</p><p>特别版</p></span></div> <div class=\"rightbar\"><img src=\"widgets/widget-header05-logo.png\"></div></div></div></td></tr></table>"
+	},
+	"RedirectUrl": null,
+	"ReloadPage": false,
+	"RedirectToOpener": true,
+	"FieldErrors": [],
+	"OpenUrl": null,
+	"ClosePopup": false
+}

@@ -1,0 +1,9 @@
+<div class="<%=baseClass%>  " style="z-index: 10000; margin-left: -75px;">
+	<%for(var i=0;i<items.length;i++){%>
+		<%=renderItem(items[i])%>
+			<%}%>
+				<div style="text-align:right">
+					<input type="button" value="添加" data-kb-attach-event="click:_onSave">
+					<input type="button" value="取消" data-kb-attach-event="click:_onCancel">
+				</div>
+</div>

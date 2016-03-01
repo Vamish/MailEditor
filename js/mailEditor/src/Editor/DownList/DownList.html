@@ -1,0 +1,12 @@
+<div class="<%=baseClass%> ">
+    <ul>
+        <%for(var i=0;i<items.length;i++){ %>
+        <li  data-kb-attach-event="click:_onItemClick" value="<%=items[i].value%>"><a href="javascript:;"  style="<%=items[i].style%>" ><%=items[i].text%></a></li>
+        <%}%>
+        <%if(hasCustom){%>
+            <li>
+                <input type="text" placeholder="自定义"  data-kb-attach-point="_customInput"   data-kb-attach-event="blur:_onCustomBlur"><%=suffix%>
+            </li>
+        <%}%>
+    </ul>
+</div>

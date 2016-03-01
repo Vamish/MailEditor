@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "button",
+    "code": "<table class=\"widget widget-button\"><tr><td><div class=\"widget-container\"><a href=\"#\" class=\"widget-btn widget-btn1 widget-btn1-01\"><p class=\"widget-btn-text\">登陆网站</p></a></div></td><td><div class=\"widget-container\"><a href=\"#\" class=\"widget-btn widget-btn1 widget-btn1-02\"><p class=\"widget-btn-text\">登陆网站</p></a></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

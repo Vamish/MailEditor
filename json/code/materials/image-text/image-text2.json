@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "image-text",
+    "code": "<table class=\"widget widget-phototext\"><tr><td><div class=\"widget-container\"><div class=\"widget-phototext02-bar clearfix\"><table width=\"100%\"><tr><td style=\"padding:0;vertical-align:top;\"><div class=\"phototext02-img\"><img src=\"widgets/widget-phototext02.jpg\"></div></td><td style=\"padding:0;vertical-align:top;\"><div class=\"phototext02-content\"><h2 class=\"content-title\">寻找最佳发送时刻—什么时候发送你的邮件活动最合适？</h2><ul class=\"content-list\"><li>标注一</li><li>标注二</li><li>标注三</li></ul><p>你应该在想：“ 什么时候才是发送邮件的最佳时刻？” 这要取决于你是谁和你要发给谁了。 因为MailChimp的发送时间优化功能是基于电子邮件基因计划里面储存的数十亿条电子邮件地址数据来向用户提供建议的。 而这些数据主要是记录了数十亿个邮件地址在接收， 打开邮件以及点击链接方面的数据， 完全是精确到个体级别的， 因此MailChimp给出的发送时间建议完全是根据用户订阅列表上的订阅人的具体情况而定的。</p></div></td></tr></table></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

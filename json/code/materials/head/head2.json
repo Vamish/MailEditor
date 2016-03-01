@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "head",
+    "code": "<table class=\"widget widget-header\"><tr><td><div class=\"widget-container\"><div class=\"widget-header02-wrap\"><div class=\"widget-header02-bar\"><p>FOLLOW US AND BE THE FIRST TO KNOW ABOUT EVERYTHING MENUDIES </p><ul class=\"social-icons noneditable\" contenteditable=\"false\"><li><a href=\"#\"><img src=\"../widgets/widget-header02-qq.png\" alt=\"img\"></a></li><li><a href=\"#\"><img src=\"../widgets/widget-header02-weixin.png\" alt=\"img\"></a></li><li><a href=\"#\"><img src=\"../widgets/widget-header02-weibo.png\" alt=\"img\"></a></li></ul></div></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

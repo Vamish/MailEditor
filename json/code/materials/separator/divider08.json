@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "separator",
+    "code": "<table class=\"widget widget-divider\"><tr><td><div class=\"widget-container\"><div class=\"widget-divider08-bar\"><table width=\"100%\"><tr><td style=\"padding:0 0 0 40px;\"><span class=\"divider08-hr\"></span></td><td width=\"10%\" style=\"padding:15px 0;\"><span class=\"divider08-text\">MailPanda</span></td><td style=\"padding:0 40px 0 0;\"><span class=\"divider08-hr\"></span></td></tr></table></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

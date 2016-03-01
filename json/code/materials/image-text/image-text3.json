@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "type": "image-text",
+    "code": "<table class=\"widget widget-phototext\"><tr><td><div class=\"widget-container\"><div class=\"widget-phototext03-bar\"><table width=\"100%\"><tr><td style=\"padding:0;vertical-align:top;\"><div class=\"leftbar\"><div class=\"phototext03-img\"><img src=\"widgets/widget-phototext03-1.jpg\"></div><div class=\"text\"><p>小标题</p></div></div></td><td style=\"padding:0;vertical-align:top;\"><div class=\"rightbar\"><div class=\"phototext03-img\"><img src=\"widgets/widget-phototext03-2.jpg\"></div><div class=\"text\"><p>您可以在这里输入您想要的文字<br>测试测试测试测试测试测试测试测试测试</p><a href=\"#\">点此链接</a></div></div></td></tr></table></div></div></td></tr></table>"
+  },
+  "RedirectUrl": null,
+  "ReloadPage": false,
+  "RedirectToOpener": true,
+  "FieldErrors": [],
+  "OpenUrl": null,
+  "ClosePopup": false
+}

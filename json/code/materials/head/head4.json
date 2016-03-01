@@ -1,0 +1,14 @@
+{
+	"Success": true,
+	"Messages": [],
+	"Model": {
+		"type": "head",
+		"code": "<table class=\"widget widget-header\"><tr><td><div class=\"widget-container\"><div class=\"widget-header04-bar\"><p>www.mailpanda.com</p><p class=\"header04-b\">MailPanda</p><p>感谢您订阅MailPanda邮件推送， 我们会努力给您带来更好的发送体验</p></div></div></td></tr></table>"
+	},
+	"RedirectUrl": null,
+	"ReloadPage": false,
+	"RedirectToOpener": true,
+	"FieldErrors": [],
+	"OpenUrl": null,
+	"ClosePopup": false
+}

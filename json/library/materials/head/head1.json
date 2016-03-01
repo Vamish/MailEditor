@@ -1,0 +1,14 @@
+{
+  "Success": true,
+  "Messages": [],
+  "Model": {
+    "items": [
+      {
+        "id": "468e63a9-2112-43b6-be02-72919efc17e0",
+        "thumbnail": "images/material-header01.jpg",
+        "type": "head",
+        "code": "/json/code/meterials/head/head1.json"
+      }
+    ]
+  }
+}

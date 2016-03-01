@@ -1,0 +1,14 @@
+{
+	"Success": true,
+	"Messages": [],
+	"Model": {
+		"type": "head",
+		"code": "<table class=\"widget widget-header\"><tr><td><div class=\"widget-container\"><div class=\"widget-header06-bar\"><ul><li><a href=\"#\">简介</a></li><li><a href=\"#\">活动</a></li><li><img src=\"widgets/widget-header06-logo.png\"></li><li><a href=\"#\">分类</a></li><li><a href=\"#\">联系我们</a></li></ul></div></div></td></tr></table>"
+	},
+	"RedirectUrl": null,
+	"ReloadPage": false,
+	"RedirectToOpener": true,
+	"FieldErrors": [],
+	"OpenUrl": null,
+	"ClosePopup": false
+}
